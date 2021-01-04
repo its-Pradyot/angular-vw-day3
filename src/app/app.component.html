@@ -17,4 +17,26 @@
 <p>{{"HELLO WORLD" | capitalize}}</p>
 -->
 
+<h2>Two way data binding</h2>
+<p>Value of mydata variable : {{mydata}}</p>
+<input type="text" [(ngModel)]="myname" />
+<br />
+<button (click)="hello()">Click</button>
+<br />
+THIS IS DATA BINDING : {{myname}}
 
+
+<h2>Enter your data here</h2>
+<input type="text" [(ngModel)]="empid" /><br/>
+<input type="text" [(ngModel)]="empname" /><br/>
+<input type="text" [(ngModel)]="salary" /><br/>
+<input type="text" [(ngModel)]="location" /><br/>
+
+<button (click)="hello1()">Click</button>
+
+<p>You have entered following data</p>
+
+Empid : {{empid}}<br/>
+Name : {{empname}}<br/>
+Salary : {{salary}}<br/>
+Location : {{location}}<br/>
