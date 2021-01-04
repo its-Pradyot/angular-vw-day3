@@ -26,10 +26,7 @@ export class AppComponent {
     this.mydata = this.myname;
   }
 
-  hello1() {
-    this.empid = this.empid;
-    this.empname = this.empname;
-    this.salary = this.salary;
-    this.location = this.location;
+  formHello(data) {
+    console.log(data.txtusername + " " + data.txtpassword);
   }
 }
