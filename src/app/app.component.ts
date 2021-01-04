@@ -10,5 +10,9 @@ export class AppComponent  {
 
   mydate = new Date();
 
-  
+  emp = {"empid":12,"empname":"ABCD","salary":26000}
+
+  cities = ['Pune','Mumbai','Nagpur','Goa','Nashik'];
+
+
 }
